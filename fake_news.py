@@ -248,6 +248,7 @@ plt.legend()
 plt.xticks(rotation=45)
 plt.show(block=False)
 plt.pause(3)
+plt.close()
 
 # Save Models
 for model_name, model in models.items():
