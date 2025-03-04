@@ -121,7 +121,8 @@ plt.ylabel("Accuracy")
 plt.title("Comparison of Text Embedding Methods")
 plt.legend()
 plt.xticks(rotation=45)
-plt.show()
+plt.show(block=False)
+plt.pause(3)
 
 # Save Models
 for model_name, model in models.items():
